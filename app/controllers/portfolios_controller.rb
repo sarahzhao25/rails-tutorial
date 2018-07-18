@@ -51,4 +51,5 @@ class PortfoliosController < ApplicationController
       format.html { redirect_to portfolios_path, notice: 'The record was succesfully deleted.' }
     end
   end
+
 end
